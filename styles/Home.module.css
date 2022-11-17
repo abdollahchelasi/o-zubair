@@ -8,6 +8,26 @@
     }
 
 }
+
+@keyframes vido {
+    10% {
+        background: linear-gradient(rgb(36, 40, 73), rgb(5, 41, 58));
+    }
+
+    20% {
+        background: linear-gradient(rgb(95, 201, 228), rgb(37, 87, 128));
+    }
+
+    40% {
+        background: linear-gradient(rgb(21, 6, 92), rgb(42, 112, 168));
+    }
+
+    40% {
+        background: linear-gradient(rgb(6, 92, 92), rgb(73, 213, 223));
+    }
+
+}
+
 @keyframes border {
     10%{box-shadow: black 1px 1px 7px;}
     40%{box-shadow: rgb(235, 216, 216) 1px 1px 7px;}
@@ -280,10 +300,28 @@
 
 }
 
+/* Video */
 
+.vid{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    animation-name: vido;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    background: linear-gradient(rgb(36, 61, 73), rgb(39, 164, 223));
+}
+
+
+
+
+
+
+/* Footer */
 
 .footer{
     color: white;
+    padding: 11px;
     margin-top: 150px;
     box-shadow: black 1px 1px 7px;    
     background: linear-gradient(to right, rgb(35, 39, 53), rgb(28, 24, 80), rgb(77, 73, 124));
@@ -401,6 +439,7 @@
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 13px;
+    margin-bottom: 60px;
     box-shadow: black 1px 1px 5px;
     border-style: groove;
     border-color: rgb(74, 92, 255);
