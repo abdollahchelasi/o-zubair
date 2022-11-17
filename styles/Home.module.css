@@ -309,6 +309,7 @@
     animation-name: vido;
     animation-iteration-count: infinite;
     animation-duration: 3s;
+    box-shadow: black 1px 1px 16px;
     background: linear-gradient(rgb(36, 61, 73), rgb(39, 164, 223));
 }
 
