@@ -1,0 +1,29 @@
+html,
+body {
+  font-family: 'lalezar';
+  padding: 0;
+  margin: 0;
+  background-color: rgb(8, 15, 15);
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  font-family: 'lalezar';
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    font-family: 'lalezar';
+
+    color: rgb(0, 0, 0);
+  }
+}
