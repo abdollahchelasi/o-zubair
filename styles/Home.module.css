@@ -354,6 +354,12 @@
     animation-iteration-count: infinite;
 }
 
+.abdo:hover{
+    background: linear-gradient( rgb(154, 38, 221), rgb(53, 36, 230), rgb(80, 180, 219));
+    color: aliceblue;
+
+}
+
 .imgabdo{
     border-radius: 50%;
     box-shadow: black 1px 1px 6px;
