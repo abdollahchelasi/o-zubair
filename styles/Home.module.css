@@ -9,6 +9,21 @@
 
 }
 
+@keyframes abdo {
+
+    10%{
+        border-color: rgb(7, 25, 83);
+    }
+    20%{
+        border-color: rgb(80, 7, 7);
+    }
+
+    30%{
+        border-color: rgb(194, 255, 50);
+    }
+    
+}
+
 @keyframes vido {
     10% {
         background: linear-gradient(rgb(36, 40, 73), rgb(5, 41, 58));
@@ -328,6 +343,24 @@
     background: linear-gradient(to right, rgb(35, 39, 53), rgb(28, 24, 80), rgb(77, 73, 124));
 }
 
+.abdo{
+    background: linear-gradient( rgb(34, 68, 194), rgb(16, 15, 27), rgb(84, 73, 124));
+    padding: 8px;
+    border-radius: 5px;
+    border-style: dashed;
+    margin-left: 11px;
+    animation-name: abdo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.imgabdo{
+    border-radius: 50%;
+    box-shadow: black 1px 1px 6px;
+    border-style: groove;
+    border-color: rgb(241, 59, 59);
+}
+
 .divbody{
     background: linear-gradient( rgb(34, 68, 194), rgb(16, 15, 27), rgb(84, 73, 124));
 
@@ -356,6 +389,7 @@
 }
 
 .develop{
+    padding: 21px;
     background: linear-gradient( rgb(4, 11, 15), rgb(2, 34, 44), rgb(116, 84, 233));
     text-align: center;
 }
