@@ -328,7 +328,12 @@
     background: linear-gradient(rgb(36, 61, 73), rgb(39, 164, 223));
 }
 
-
+.contvid{
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 1px 1px 6px;
+    border-radius: 11px;
+    padding: 11px;
+}
 
 
 
