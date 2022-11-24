@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { Container,Row,Col } from "react-bootstrap";
+import Link from "next/link";
+import { Container, Row, Col } from "react-bootstrap";
+import styles from '../styles/Home.module.css'
 
 const images = () => {
     return (
@@ -7,21 +9,24 @@ const images = () => {
             <Head>
                 <title>عمر المرزوقی - صور رياضية</title>
             </Head>
-                
-                    <Container>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                        <Row>
-                            <Col>HI</Col>
-                            <Col>HI</Col>
-                            <Col>HI</Col>
-                        </Row>
-                    </Container>
+
+            <Container>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <Row>
+                    <Col >
+                        <Link href={"/a.jpg"} target="#">
+                            <img className={styles.img1} src="/a.jpg" width={200} />
+                        </Link>
+                    </Col>
+
+                </Row>
+            </Container>
         </>
     );
 }
