@@ -354,7 +354,7 @@
     border-radius: 11px;
     background-color: rgb(67, 68, 70);
 
-
+    margin: 4px;
     -webkit-animation:flip-scale-up-diag-1 2s linear reverse both;animation:flip-scale-up-diag-1 2s linear reverse both
 
 }

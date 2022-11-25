@@ -20,8 +20,22 @@ const images = () => {
                 <br />
                 <Row>
                     <Col >
-                        <Link href={"/a.jpg"} target="#">
-                            <img className={styles.img1} src="/a.jpg" width={200} />
+                        <Link href={"/img/i1.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i1.jpg" width={200} />
+                        </Link>
+                    </Col>
+
+
+                    <Col >
+                        <Link href={"/img/i2.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i2.jpg" width={200} />
+                        </Link>
+                    </Col>
+
+
+                    <Col >
+                        <Link href={"/img/i3.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i3.jpg" width={200} />
                         </Link>
                     </Col>
 
