@@ -18,6 +18,7 @@ const video = () => {
                 <br />
                 <br />
                 <br />
+                <br />
                 <Row>
                     <Col sm={12}>
                         <h3 className={styles.news1}>فيديوهات رياضیة</h3>
@@ -28,90 +29,90 @@ const video = () => {
 
 
 
-                        <Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v1.mp4" />
+                                <video className={styles.vid} controls  src="/video/v1.mp4" />
 
-</Col>
-<Col >
+                            </Col>
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v2.mp4" />
+                                <video className={styles.vid} controls  src="/video/v2.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v3.mp4" />
+                                <video className={styles.vid} controls  src="/video/v3.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v5.mp4" />
+                                <video className={styles.vid} controls  src="/video/v5.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v6.mp4" />
+                                <video className={styles.vid} controls  src="/video/v6.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v7.mp4" />
+                                <video className={styles.vid} controls  src="/video/v7.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v8.mp4" />
+                                <video className={styles.vid} controls src="/video/v8.mp4" />
 
-</Col>
-
-
-<Col >
-
-<video className={styles.vid} controls width={300} src="/video/v9.mp4" />
-
-</Col>
-
-<Col >
-
-<video className={styles.vid} controls width={300} src="/video/v10.mp4" />
-
-</Col>
+                            </Col>
 
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v11.mp4" />
+                                <video className={styles.vid} controls  src="/video/v9.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
+                            <Col sm={6}>
 
-<video className={styles.vid} controls width={300} src="/video/v12.mp4" />
+                                <video className={styles.vid} controls  src="/video/v10.mp4" />
 
-</Col>
+                            </Col>
 
-<Col >
 
-<video className={styles.vid} controls width={300} src="/video/v13.mp4" />
+                            <Col sm={6}>
 
-</Col>
+                                <video className={styles.vid} controls  src="/video/v11.mp4" />
 
-<Col >
+                            </Col>
 
-<video className={styles.vid} controls width={300} src="/video/v14.mp4" />
+                            <Col sm={6}>
 
-</Col>
+                                <video className={styles.vid} controls  src="/video/v12.mp4" />
 
-<Col >
+                            </Col>
 
-<video className={styles.vid} controls width={300} src="/video/v15.mp4" />
+                            <Col sm={6}>
 
-</Col>
+                                <video className={styles.vid} controls  src="/video/v13.mp4" />
+
+                            </Col>
+
+                            <Col sm={6}>
+
+                                <video className={styles.vid} controls  src="/video/v14.mp4" />
+
+                            </Col>
+
+                            <Col sm={6}>
+
+                                <video className={styles.vid} controls src="/video/v15.mp4" />
+
+                            </Col>
 
                         </Row>
                     </Container>

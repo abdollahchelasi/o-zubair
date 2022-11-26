@@ -331,6 +331,7 @@
 /* Video */
 
 .vid{
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -351,9 +352,10 @@
 /* Images */
 
 .img1{
+    width: 50%;
     border-radius: 11px;
     background-color: rgb(67, 68, 70);
-
+    box-shadow: rgb(0, 0, 0) 1px 1px 9px;
     margin: 4px;
     -webkit-animation:flip-scale-up-diag-1 2s linear reverse both;animation:flip-scale-up-diag-1 2s linear reverse both
 
@@ -388,7 +390,12 @@ animation-duration: 1s; */
 
 
 
-
+.contimg{
+    text-align: center;
+    box-shadow: black 1px 1px 6px;
+    padding: 5px;
+    border-radius: 6px;
+}
 
 
 

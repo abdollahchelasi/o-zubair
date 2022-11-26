@@ -10,7 +10,8 @@ const images = () => {
                 <title>عمر المرزوقی - صور رياضية</title>
             </Head>
 
-            <Container>
+            <Container fluid className={styles.contimg}>
+                <br />
                 <br />
                 <br />
                 <br />
@@ -19,25 +20,80 @@ const images = () => {
                 <br />
                 <br />
                 <Row>
-                    <Col >
+                    
+                    <Col sm={12} >
                         <Link href={"/img/i1.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i1.jpg" width={200} />
+                            <img className={styles.img1} src="/img/i1.jpg" />
                         </Link>
                     </Col>
 
 
-                    <Col >
+                    <Col sm={6} >
                         <Link href={"/img/i2.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i2.jpg" width={200} />
+                            <img className={styles.img1} src="/img/i2.jpg" />
                         </Link>
                     </Col>
 
 
-                    <Col >
+                    <Col sm={4} >
                         <Link href={"/img/i3.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i3.jpg" width={200} />
+                            <img className={styles.img1} src="/img/i3.jpg" />
                         </Link>
                     </Col>
+
+                    <Col sm={8} >
+                        <Link href={"/img/i4.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i4.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col sm={10} >
+                        <Link href={"/img/i5.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i5.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 </Row>
             </Container>
