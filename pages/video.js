@@ -29,18 +29,18 @@ const video = () => {
 
 
 
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls  src="/video/v1.mp4" />
 
                             </Col>
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls  src="/video/v2.mp4" />
 
                             </Col>
 
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls  src="/video/v3.mp4" />
 
@@ -58,20 +58,20 @@ const video = () => {
 
                             </Col>
 
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls  src="/video/v7.mp4" />
 
                             </Col>
 
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls src="/video/v8.mp4" />
 
                             </Col>
 
 
-                            <Col sm={6}>
+                            <Col sm={4}>
 
                                 <video className={styles.vid} controls  src="/video/v9.mp4" />
 

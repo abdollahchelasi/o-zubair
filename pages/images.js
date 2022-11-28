@@ -265,6 +265,247 @@ const images = () => {
 
 
 
+
+
+
+
+
+
+
+
+                    <Col  >
+                        <Link href={"/img/i31.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i31.jpg" />
+                        </Link>
+                        
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i32.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i32.jpg" />
+                        </Link>
+                    </Col>
+                    
+
+
+                    <Col  sm={6}>
+                        <Link href={"/img/i33.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i33.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col >
+                        <Link href={"/img/i34.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i34.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col  >
+                        <Link href={"/img/i35.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i35.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  sm={6}>
+                        <Link href={"/img/i36.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i36.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i37.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i37.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i38.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i38.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col  sm={6}>
+                        <Link href={"/img/i39.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i39.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col  >
+                        <Link href={"/img/i40.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i40.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i41.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i41.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  sm={6}>
+                        <Link href={"/img/i42.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i42.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  >
+                        <Link href={"/img/i43.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i43.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+                    <Col  >
+                        <Link href={"/img/i44.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i44.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+                    <Col  >
+                        <Link href={"/img/i45.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i45.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+
+                    <Col  sm={6}>
+                        <Link href={"/img/i46.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i46.jpg" />
+                        </Link>
+                    </Col>
+
+                    <Col  >
+                        <Link href={"/img/i47.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i47.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i48.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i48.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  >
+                        <Link href={"/img/i49.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i49.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col sm={6} >
+                        <Link href={"/img/i50.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i50.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+                    <Col  >
+                        <Link href={"/img/i51.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i51.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i52.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i52.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i53.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i53.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  >
+                        <Link href={"/img/i54.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i54.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col sm={6} >
+                        <Link href={"/img/i55.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i55.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+
+
+
+                    <Col  >
+                        <Link href={"/img/i56.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i56.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i57.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i57.jpg" />
+                        </Link>
+                    </Col>
+
+
+                    <Col  >
+                        <Link href={"/img/i58.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i58.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col  >
+                        <Link href={"/img/i59.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i59.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+                    <Col sm={7} >
+                        <Link href={"/img/i60.jpg"} target='_blank'>
+                            <img className={styles.img1} src="/img/i60.jpg" />
+                        </Link>
+                    </Col>
+
+
+
+
+
                 </Row>
             </Container>
         </>
