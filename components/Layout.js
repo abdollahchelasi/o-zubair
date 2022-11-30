@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Head from "next/head";
 import Link from "next/link";
 import Navbb from "./Navbb";
+import Image from "next/image";
 
 const Layout = ({ children }) => {
     return (
@@ -52,13 +53,13 @@ const Layout = ({ children }) => {
                         </Col>
                         <Col className={styles.omarz}>
                             <div>
-                                <img className={styles.omaricon} src="/omaricon.jpg" width={100} />
+                                <Image className={styles.omaricon} src="/omaricon.jpg" alt="Omar Zubair" layout='fixed' height={50}  width={50} />
                                 <p>عمر الزبير المرزوقي</p>
                             </div>
                         </Col>
 
                         <Col className={styles.develop} sm={12}>
-                            <p>Developer By <a href="https://abdollahchelasi.vercel.app" target={"#"}><span className={styles.abdo}>ABDOLLAH <img className={styles.imgabdo} src="a.jpg" width={40}/> CHELASI</span></a> </p>
+                            <p>Developer By <a href="https://abdollahchelasi.vercel.app" target={"#"}><span className={styles.abdo}>ABDOLLAH <Image className={styles.imgabdo} src="a.jpg" alt="Abdollah Chelasi" layout='fixed' height={50}  width={50}/> CHELASI</span></a> </p>
                         </Col>
                     </Row>
                 </Container>

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from '../styles/Home.module.css'
+import Image from "next/image";
 
 const images = () => {
     return (
@@ -23,12 +24,12 @@ const images = () => {
                      
                     <Col  >
                         <Link href={"/img/i1.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i1.jpg" />
+                            <Image className={styles.img1} alt={"Omar1"}  width={100} height={100}  src="/img/i1.jpg" />
                         </Link>
                         
                     </Col>
 
-
+{/* 
                     <Col  >
                         <Link href={"/img/i2.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i2.jpg" />
@@ -924,7 +925,7 @@ const images = () => {
                             <img className={styles.img1} src="/img/i110.jpg" />
                         </Link>
                     </Col>
-
+ */}
 
 
 

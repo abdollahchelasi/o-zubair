@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Home.module.css"
@@ -26,7 +27,7 @@ const news1 = () => {
                 <Row>
                     <Col className={styles.n01}>
                         <Link href={"/news1.jpg"}>
-                            <img className={styles.n1} src="/news1.jpg" width={100} />
+                            <Image className={styles.n1} alt="khabar1" src="/news1.jpg" layout='fixed' height={150}  width={300} />
                         </Link>
                         <h4 className={styles.pnews1}>ترقية حكم اليد الدولي عمرالزبير إلى رتبة رائد</h4>
 

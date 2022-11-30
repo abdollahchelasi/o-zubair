@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Head from "next/head";
+import Image from "next/image";
 
 
 const news2 = () => {
@@ -25,7 +26,7 @@ const news2 = () => {
                 <Row>
                     <Col className={styles.n01}>
                         <Link href={"/news2.jpg"}>
-                            <img className={styles.n1} src="/news2.jpg" width={100} />
+                            <Image className={styles.n1} src="/news2.jpg" alt="khabar2" layout='fixed' height={150}  width={300} />
                         </Link>
                         <h4 className={styles.pnews1}>Al Marzouqi sets high goals in Rio</h4>
 

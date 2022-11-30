@@ -1,6 +1,24 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/news/1": "pages/news/1.html",
+  "/api/hello": "pages/api/hello.js",
+  "/news/11": "pages/news/11.html",
+  "/news/10": "pages/news/10.html",
+  "/news/2": "pages/news/2.html",
+  "/news/3": "pages/news/3.html",
+  "/news/13": "pages/news/13.html",
+  "/news/4": "pages/news/4.html",
+  "/news/12": "pages/news/12.html",
+  "/news/6": "pages/news/6.html",
+  "/news/8": "pages/news/8.html",
+  "/news/5": "pages/news/5.html",
+  "/news": "pages/news.html",
+  "/news/7": "pages/news/7.html",
+  "/images": "pages/images.html",
+  "/news/9": "pages/news/9.html",
+  "/_app": "pages/_app.js",
+  "/video": "pages/video.html",
   "/_document": "pages/_document.js",
-  "/images": "pages/images.js"
+  "/404": "pages/404.html"
 }

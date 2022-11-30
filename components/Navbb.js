@@ -2,6 +2,7 @@ import { Navbar, Container, Nav, } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbb = () => {
   return (
@@ -9,7 +10,7 @@ const Navbb = () => {
     <Navbar fixed='top' className={styles.navb} expand="sm">
       <Container>
         <Navbar.Brand>
-          <img className={styles.omaricon} src='/omaricon.jpg' width={50} />
+          <Image alt='Omar' className={styles.omaricon} src={'/omaricon.jpg'} layout='fixed' height={50}  width={50} />
         </Navbar.Brand>
         <Navbar.Brand className={styles.omarzubair}>عمر الزبير المرزوقي</Navbar.Brand>
 
