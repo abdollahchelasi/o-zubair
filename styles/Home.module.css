@@ -424,6 +424,7 @@ animation-duration: 1s; */
     animation-name: abdo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    
 }
 
 .abdo:hover{
