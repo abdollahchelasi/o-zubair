@@ -354,7 +354,6 @@
 
 .img1{
     width: 100%;
-    padding: 3px;
     border-radius: 11px;
     background-color: rgb(67, 68, 70);
     box-shadow: rgb(0, 0, 0) 1px 1px 9px;
@@ -394,9 +393,7 @@ animation-duration: 1s; */
 
 .contimg{
     text-align: center;
-    box-shadow: black 1px 1px 6px;
     padding: 5px;
-    border-radius: 6px;
 }
 
 
