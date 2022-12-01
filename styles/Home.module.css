@@ -8,6 +8,13 @@
     }
 
 }
+@keyframes passimg {
+
+    10%{background:linear-gradient(rgb(43, 40, 40),rgb(69, 69, 78));}
+    40%{background:linear-gradient(rgb(141, 120, 120),rgb(64, 64, 97));}
+    60%{background:linear-gradient(rgb(17, 13, 13),rgb(191, 191, 197));}
+    
+}
 @keyframes images {
 
     10%{
@@ -603,6 +610,10 @@ animation-duration: 1s; */
     width: 200px;
     border-radius: 22px;
     box-shadow: black 1px 1px 5px;
+    animation-name: passimg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background:linear-gradient(rgb(43, 40, 40),rgb(69, 69, 78));
 }
 
 .n1{
