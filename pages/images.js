@@ -29,7 +29,7 @@ const images = () => {
                         
                     </Col>
 
-{/* 
+
                     <Col  >
                         <Link href={"/img/i2.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i2.jpg" />
@@ -925,7 +925,7 @@ const images = () => {
                             <img className={styles.img1} src="/img/i110.jpg" />
                         </Link>
                     </Col>
- */}
+
 
 
 
