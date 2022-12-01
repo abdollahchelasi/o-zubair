@@ -202,6 +202,7 @@
 .omaricon {
     box-shadow: rgb(0, 0, 0) 1px 1px 7px;
     border-radius: 50%;
+    width: 50px;
     -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
     animation: heartbeat 1.5s ease-in-out infinite both
 }
@@ -461,6 +462,7 @@ animation-duration: 1s; */
 }
 
 .develop{
+    font-size: 0.8rem;
     padding: 21px;
     background: linear-gradient( rgb(4, 11, 15), rgb(2, 34, 44), rgb(116, 84, 233));
     text-align: center;
@@ -477,6 +479,7 @@ animation-duration: 1s; */
 }
 
 .aboutomar{
+    width: 100px;
     margin: 20px;
     border-radius: 11px;
     box-shadow: rgb(0, 0, 0) 1px 1px 18px;

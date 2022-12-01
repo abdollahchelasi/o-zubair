@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Head from "next/head";
-import Image from "next/image";
 
 
 const news5 = () => {
@@ -26,7 +25,7 @@ const news5 = () => {
                 <Row>
                     <Col className={styles.n01}>
                         <Link href={"/news5.jpg"}>
-                            <Image className={styles.n1} src="/news5.jpg" layout='fixed' alt="khabar5" height={150}  width={300} />
+                            <img className={styles.n1} src="/news5.jpg" />
                         </Link>
                         <h4 className={styles.pnews1}>
                         Handball referee Al Marzouqi to adjudicate at qualifying event

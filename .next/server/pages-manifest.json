@@ -1,7 +1,5 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/hello": "pages/api/hello.js",
   "/": "pages/index.html",
   "/news/1": "pages/news/1.html",
   "/news/10": "pages/news/10.html",
@@ -17,8 +15,10 @@
   "/news/8": "pages/news/8.html",
   "/news/9": "pages/news/9.html",
   "/news": "pages/news.html",
-  "/video": "pages/video.html",
+  "/_app": "pages/_app.js",
   "/images": "pages/images.html",
+  "/video": "pages/video.html",
+  "/api/hello": "pages/api/hello.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

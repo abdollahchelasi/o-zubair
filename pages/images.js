@@ -24,7 +24,7 @@ const images = () => {
                      
                     <Col  >
                         <Link href={"/img/i1.jpg"} target='_blank'>
-                            <Image className={styles.img1} alt={"Omar1"}  width={100} height={100}  src="/img/i1.jpg" />
+                            <img className={styles.img1} src="/img/i1.jpg" />
                         </Link>
                         
                     </Col>

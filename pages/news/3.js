@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Head from "next/head";
-import Image from "next/image";
 
 
 const news3 = () => {
@@ -26,7 +25,7 @@ const news3 = () => {
                 <Row>
                     <Col className={styles.n01}>
                         <Link href={"/news3.jpg"}>
-                            <Image className={styles.n1}  src="/news3.jpg" alt="khabar Jadid 1" layout='fixed' height={150}  width={300} />
+                            <img className={styles.n1}  src="/news3.jpg" />
                         </Link>
                         <h4 className={styles.pnews1}>
 Former UAE soccer stars, Sports Councils members feted by Omar Al Zubair

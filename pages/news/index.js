@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import { Container,Row,Col } from "react-bootstrap";
 import styles from '../../styles/Home.module.css'
@@ -31,7 +30,7 @@ const index = () => {
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news1.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news1.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>
@@ -50,7 +49,7 @@ const index = () => {
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news2.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news2.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -69,7 +68,7 @@ const index = () => {
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news3.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news3.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -87,7 +86,7 @@ const index = () => {
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news4.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news4.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>
@@ -107,7 +106,7 @@ const index = () => {
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news5.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news5.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -129,7 +128,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news6.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news6.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -151,7 +150,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news7.jpeg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news7.jpeg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -172,7 +171,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news8.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news8.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>
@@ -195,7 +194,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news9.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news9.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -218,7 +217,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news10.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news10.jpg" />
 
                             </Col>
                             <Col className={styles.news02}>
@@ -239,7 +238,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news11.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news11.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>
@@ -259,7 +258,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news12.jpg"  alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news12.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>
@@ -279,7 +278,7 @@ Official pencilled in for Men’s Olympic Qualification Tournament to be held in
                             <Row>
                             
                                 <Col>
-                                <Image className={styles.news002}  src="/news13.jpg" alt="News Omar" layout='fixed' height={100}  width={200}/>
+                                <img className={styles.news002}  src="/news13.jpg"/>
 
                             </Col>
                             <Col className={styles.news02}>

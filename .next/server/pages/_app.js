@@ -29,11 +29,7 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(5675);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./components/Navbb.js
-
 
 
 
@@ -47,13 +43,9 @@ const Navbb = ()=>{
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Container, {
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Navbar.Brand, {
-                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        alt: "Omar",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                         className: (Home_module_default()).omaricon,
-                        src: "/omaricon.jpg",
-                        layout: "fixed",
-                        height: 50,
-                        width: 50
+                        src: "/omaricon.jpg"
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Navbar.Brand, {
@@ -106,7 +98,6 @@ const Navbb = ()=>{
 /* harmony default export */ const components_Navbb = (Navbb);
 
 ;// CONCATENATED MODULE: ./components/Layout.js
-
 
 
 
@@ -191,13 +182,9 @@ const Layout = ({ children  })=>{
                                 className: (Home_module_default()).omarz,
                                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                             className: (Home_module_default()).omaricon,
-                                            src: "/omaricon.jpg",
-                                            alt: "Omar Zubair",
-                                            layout: "fixed",
-                                            height: 50,
-                                            width: 50
+                                            src: "/omaricon.jpg"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             children: "عمر الزبير المرزوقي"
@@ -218,12 +205,9 @@ const Layout = ({ children  })=>{
                                                 className: (Home_module_default()).abdo,
                                                 children: [
                                                     "ABDOLLAH ",
-                                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                         className: (Home_module_default()).imgabdo,
                                                         src: "/a.jpg",
-                                                        alt: "Abdollah Chelasi",
-                                                        layout: "fixed",
-                                                        height: 50,
                                                         width: 50
                                                     }),
                                                     " CHELASI"
@@ -273,31 +257,10 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 4957:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/head.js");
-
-/***/ }),
-
 /***/ 4014:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 5843:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config.js");
 
 /***/ }),
 
@@ -476,7 +439,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [377,675,952,664,288], () => (__webpack_exec__(2674)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,664,288], () => (__webpack_exec__(2674)));
 module.exports = __webpack_exports__;
 
 })();

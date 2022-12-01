@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Image from 'next/image'
 
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
 
                   <Row>
                     <Col sm={12} className={styles.colimg}>
-                      <Image className={styles.imgomar} src='/passomar.jpg' alt="Omar Zubair" layout='fixed' height={100}  width={100} />
+                      <img className={styles.imgomar} src='/passomar.jpg' alt="Omar Zubair"  />
                       <p className={styles.pomar}>عمر الزبير المرزوقي</p>
                     </Col>
                     <hr/>
@@ -63,7 +62,7 @@ export default function Home() {
             <h1 className={styles.aboutomar2}>About Omar</h1>
             </Col>
             <Col>
-            <Image className={styles.aboutomar} src='/omarsarbaz.jpg' alt="ABDOLLAH" layout='fixed' height={100}  width={100}/>
+            <img className={styles.aboutomar} src='/omarsarbaz.jpg'  />
             <h4 className={styles.pomarrr}>Omar Mohammed Zubair Al Marzouqi</h4>
             </Col>
             <Col>

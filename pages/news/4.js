@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Head from "next/head";
-import Image from "next/image";
 
 
 const news4 = () => {
@@ -26,7 +25,7 @@ const news4 = () => {
                 <Row>
                     <Col className={styles.n01}>
                     <Link href={"/news4.jpg"}>
-                            <Image className={styles.n1}  src="/news4.jpg" alt="khabar Jadid 1" layout="fill" height={150}  width={300} />
+                            <img className={styles.n1}  src="/news4.jpg"  />
                         </Link>
                         <h4 className={styles.pnews1}>
                         Omar Al Zubair Al Marzouqi honours Deepak Kumar, managing director of Ayal Perfumes LLC
