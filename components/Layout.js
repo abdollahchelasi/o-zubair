@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
                         </Col>
 
                         <Col className={styles.develop} sm={12}>
-                            <p>Developer By <a href="https://abdollahchelasi.vercel.app" target={"#"}><span className={styles.abdo}>ABDOLLAH <Image className={styles.imgabdo} src="a.jpg" alt="Abdollah Chelasi" layout='fixed' height={50}  width={50}/> CHELASI</span></a> </p>
+                            <p>Developer By <a href="https://abdollahchelasi.vercel.app" target={"#"}><span className={styles.abdo}>ABDOLLAH <Image className={styles.imgabdo} src="/a.jpg" alt="Abdollah Chelasi" layout='fixed' height={50}  width={50}/> CHELASI</span></a> </p>
                         </Col>
                     </Row>
                 </Container>

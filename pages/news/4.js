@@ -25,8 +25,8 @@ const news4 = () => {
                 <br />
                 <Row>
                     <Col className={styles.n01}>
-                        <Link href={"/news4.jpg"}>
-                            <Image className={styles.n1} src="/news4.jpg" layout='fixed' alt="khabar4" height={150}  width={300} />
+                    <Link href={"/news4.jpg"}>
+                            <Image className={styles.n1}  src="/news4.jpg" alt="khabar Jadid 1" layout="fill" height={150}  width={300} />
                         </Link>
                         <h4 className={styles.pnews1}>
                         Omar Al Zubair Al Marzouqi honours Deepak Kumar, managing director of Ayal Perfumes LLC

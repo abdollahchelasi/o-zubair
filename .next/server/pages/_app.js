@@ -220,7 +220,7 @@ const Layout = ({ children  })=>{
                                                     "ABDOLLAH ",
                                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                         className: (Home_module_default()).imgabdo,
-                                                        src: "a.jpg",
+                                                        src: "/a.jpg",
                                                         alt: "Abdollah Chelasi",
                                                         layout: "fixed",
                                                         height: 50,
