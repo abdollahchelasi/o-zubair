@@ -880,11 +880,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col >
-                        <Link href={"/img/i104.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i104.jpg" />
-                        </Link>
-                    </Col>
+                    
 
                     <Col  >
                         <Link href={"/img/i105.jpg"} target='_blank'>
