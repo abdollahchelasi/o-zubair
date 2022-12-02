@@ -571,7 +571,38 @@ animation-duration: 1s; */
     90%{border-color: rgb(50, 77, 151);}
  }
 
-
+.news11{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4ZqevnvWXD9xKGyBea0_zyYT6GXfxv1Vash8saANxU1siTGzdWho_IHV-QqbBwIXRcM&usqp=CAU");
+    text-align: center;
+    padding: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 13px;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: black 1px 1px 5px;
+    border-style: groove;
+    border-color: rgb(74, 92, 255);
+    color: aliceblue;
+    -webkit-animation:tracking-in-expand-fwd-top 2s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd-top 2s cubic-bezier(.215,.61,.355,1.000) both;
+    
+}
+.news111{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/087/698/small/virtual-studio-style-news-background-video.jpg");
+    text-align: center;
+    padding: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 13px;
+    margin-bottom: 60px;
+    box-shadow: black 1px 1px 5px;
+    border-style: groove;
+    border-color: rgb(74, 92, 255);
+    color: aliceblue;
+    -webkit-animation:tracking-in-expand-fwd-top 2s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd-top 2s cubic-bezier(.215,.61,.355,1.000) both;
+    
+}
  .news1{
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/216/831/small/3d-world-news-background-loop-free-video.jpg");
     text-align: center;

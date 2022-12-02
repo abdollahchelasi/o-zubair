@@ -22,7 +22,7 @@ const images = () => {
                 <br />
                 <Row>
                     <Col sm={12}>
-                        <h3 className={styles.news1}>صور رياضیة</h3>
+                        <h3 className={styles.news11}>صور رياضیة</h3>
                     </Col>
                     <Col  >
 

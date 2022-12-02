@@ -21,7 +21,7 @@ const video = () => {
                 <br />
                 <Row>
                     <Col sm={12}>
-                        <h3 className={styles.news1}>فيديوهات رياضیة</h3>
+                        <h3 className={styles.news111}>فيديوهات رياضیة</h3>
                     </Col>
 
                     <Container fluid className={styles.contvid}>
