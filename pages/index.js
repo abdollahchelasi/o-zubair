@@ -17,7 +17,10 @@ export default function Home() {
 
         
 
+
+
         <div className={styles.imgpass}>
+          
           <div className={styles.divpass}>
 
             <Container>
@@ -38,7 +41,7 @@ export default function Home() {
                       </Col>
                       
 
-                      <Col sm={7} className={styles.pomar2}>
+                      <Col  className={styles.pomar2}>
                         
                       </Col>
                     </Row>
@@ -53,7 +56,9 @@ export default function Home() {
             </Container>
 
           </div>
+
         </div>
+
 
 
         <Container className={styles.homee}>
