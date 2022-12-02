@@ -388,7 +388,8 @@
 }
 #btnnav{
     background: linear-gradient(rgb(67, 80, 131), rgb(30, 107, 151), rgb(13, 64, 94));
-
+    border-style: groove;
+    border-color: rgb(17, 144, 255);
 
 }
 #btnnav:hover{
