@@ -21,12 +21,18 @@ const images = () => {
                 <br />
                 <br />
                 <Row>
-                     
+                    <Col sm={12}>
+                        <h3 className={styles.news1}>صور رياضیة</h3>
+                    </Col>
                     <Col  >
+
                         <Link href={"/img/i1.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i1.jpg" />
                         </Link>
-                        
+
+
+
+
                     </Col>
 
 
@@ -35,10 +41,10 @@ const images = () => {
                             <img className={styles.img1} src="/img/i2.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i3.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i3.jpg" />
                         </Link>
@@ -58,7 +64,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i6.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i6.jpg" />
                         </Link>
@@ -78,7 +84,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i9.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i9.jpg" />
                         </Link>
@@ -99,7 +105,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i12.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i12.jpg" />
                         </Link>
@@ -135,7 +141,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i16.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i16.jpg" />
                         </Link>
@@ -278,7 +284,7 @@ const images = () => {
                         <Link href={"/img/i31.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i31.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -287,10 +293,10 @@ const images = () => {
                             <img className={styles.img1} src="/img/i32.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i33.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i33.jpg" />
                         </Link>
@@ -310,7 +316,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i36.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i36.jpg" />
                         </Link>
@@ -330,7 +336,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i39.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i39.jpg" />
                         </Link>
@@ -351,7 +357,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i42.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i42.jpg" />
                         </Link>
@@ -387,7 +393,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i46.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i46.jpg" />
                         </Link>
@@ -518,7 +524,7 @@ const images = () => {
                         <Link href={"/img/i61.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i61.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -527,10 +533,10 @@ const images = () => {
                             <img className={styles.img1} src="/img/i62.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i63.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i63.jpg" />
                         </Link>
@@ -550,7 +556,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i66.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i66.jpg" />
                         </Link>
@@ -570,7 +576,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i69.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i69.jpg" />
                         </Link>
@@ -591,7 +597,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i72.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i72.jpg" />
                         </Link>
@@ -627,7 +633,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i76.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i76.jpg" />
                         </Link>
@@ -780,7 +786,7 @@ const images = () => {
                         <Link href={"/img/i91.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i91.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -789,10 +795,10 @@ const images = () => {
                             <img className={styles.img1} src="/img/i92.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i93.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i93.jpg" />
                         </Link>
@@ -812,7 +818,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i96.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i96.jpg" />
                         </Link>
@@ -832,7 +838,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i99.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i99.jpg" />
                         </Link>
@@ -845,7 +851,7 @@ const images = () => {
                     </Col>
 
 
-                  
+
 
 
 
@@ -862,7 +868,7 @@ const images = () => {
                         <Link href={"/img/i101.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i101.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -871,16 +877,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i102.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i103.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i103.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i105.jpg"} target='_blank'>
@@ -890,7 +896,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i106.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i106.jpg" />
                         </Link>
@@ -910,7 +916,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i109.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i109.jpg" />
                         </Link>
@@ -945,7 +951,7 @@ const images = () => {
                         <Link href={"/img/i111.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i111.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -954,16 +960,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i112.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i113.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i113.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i114.jpg"} target='_blank'>
@@ -973,7 +979,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i115.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i115.jpg" />
                         </Link>
@@ -993,7 +999,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i118.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i118.jpg" />
                         </Link>
@@ -1027,7 +1033,7 @@ const images = () => {
                         <Link href={"/img/i121.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i121.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -1036,16 +1042,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i122.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i123.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i123.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i124.jpg"} target='_blank'>
@@ -1055,7 +1061,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i125.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i125.jpg" />
                         </Link>
@@ -1075,7 +1081,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i128.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i128.jpg" />
                         </Link>
@@ -1118,7 +1124,7 @@ const images = () => {
                         <Link href={"/img/i131.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i131.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -1127,16 +1133,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i132.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i133.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i133.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i134.jpg"} target='_blank'>
@@ -1146,7 +1152,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i135.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i135.jpg" />
                         </Link>
@@ -1166,7 +1172,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i138.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i138.jpg" />
                         </Link>
@@ -1200,7 +1206,7 @@ const images = () => {
                         <Link href={"/img/i141.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i141.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -1209,16 +1215,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i142.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i143.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i143.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i144.jpg"} target='_blank'>
@@ -1228,7 +1234,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i145.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i145.jpg" />
                         </Link>
@@ -1248,7 +1254,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i148.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i148.jpg" />
                         </Link>
@@ -1283,7 +1289,7 @@ const images = () => {
                         <Link href={"/img/i151.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i151.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -1292,16 +1298,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i152.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i153.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i153.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i154.jpg"} target='_blank'>
@@ -1311,7 +1317,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i155.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i155.jpg" />
                         </Link>
@@ -1331,7 +1337,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i158.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i158.jpg" />
                         </Link>
@@ -1358,7 +1364,7 @@ const images = () => {
                         <Link href={"/img/i161.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i161.jpg" />
                         </Link>
-                        
+
                     </Col>
 
 
@@ -1367,16 +1373,16 @@ const images = () => {
                             <img className={styles.img1} src="/img/i162.jpg" />
                         </Link>
                     </Col>
-                    
 
 
-                    <Col  sm={6}>
+
+                    <Col sm={6}>
                         <Link href={"/img/i163.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i163.jpg" />
                         </Link>
                     </Col>
 
-                    
+
 
                     <Col  >
                         <Link href={"/img/i164.jpg"} target='_blank'>
@@ -1386,7 +1392,7 @@ const images = () => {
 
 
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i165.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i165.jpg" />
                         </Link>
@@ -1406,7 +1412,7 @@ const images = () => {
                         </Link>
                     </Col>
 
-                    <Col  sm={6}>
+                    <Col sm={6}>
                         <Link href={"/img/i168.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i168.jpg" />
                         </Link>
