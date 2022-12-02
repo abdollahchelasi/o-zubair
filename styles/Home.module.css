@@ -386,7 +386,15 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+#btnnav{
+    background: linear-gradient(rgb(67, 80, 131), rgb(30, 107, 151), rgb(13, 64, 94));
 
+
+}
+#btnnav:hover{
+    background: linear-gradient(rgb(66, 94, 206), rgb(48, 177, 155), rgb(73, 59, 224));
+
+}
 
 .img1:hover{
 -webkit-animation:vibrate-1 .6s linear both;animation:vibrate-1 .6s linear both;

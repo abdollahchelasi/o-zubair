@@ -13,9 +13,9 @@ const Navbb = () => {
         </Navbar.Brand>
         <Navbar.Brand className={styles.omarzubair}>عمر الزبير المرزوقي</Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id={styles.btnnav}/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
 
 
             <Link href={"/"} >
