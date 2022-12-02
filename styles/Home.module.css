@@ -528,8 +528,10 @@ animation-duration: 1s; */
 }
 .pomarrr{
     -webkit-animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both;
-
+    box-shadow: black 1px 1px 5px;
+    border-radius: 3px;
     text-align: center;
+    color: rgb(65, 207, 200);
     margin-top: 5px;
 
 }

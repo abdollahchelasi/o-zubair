@@ -66,7 +66,7 @@ export default function Home() {
             <Col sm={12}>
             <h1 className={styles.aboutomar2}>About Omar</h1>
             </Col>
-            <Col>
+            <Col sm={6}>
             <img className={styles.aboutomar} src='/omarsarbaz.jpg'  />
             <h4 className={styles.pomarrr}>Omar Mohammed Zubair Al Marzouqi</h4>
             </Col>
