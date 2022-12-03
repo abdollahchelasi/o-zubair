@@ -670,10 +670,7 @@ animation-duration: 1s; */
     width: 200px;
     border-radius: 22px;
     box-shadow: black 1px 1px 5px;
-    animation-name: passimg;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    background:linear-gradient(rgb(43, 40, 40),rgb(69, 69, 78));
+   
 }
 
 .n1{
