@@ -2393,12 +2393,6 @@ const images = () => {
                     </Col>
 
 
-                    <Col  >
-                        <Link href={"/img/i297.jpg"} target='_blank'>
-                            <img className={styles.img1} src="/img/i297.jpg" />
-                        </Link>
-                    </Col>
-
                     <Col sm={6}>
                         <Link href={"/img/i298.jpg"} target='_blank'>
                             <img className={styles.img1} src="/img/i298.jpg" />

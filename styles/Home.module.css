@@ -137,18 +137,38 @@
     10%{
         background-image: url("/img/i1.jpg");
     }
-    30%{
-        background-image: url("/img/i2.jpg");
+    20%{
+        background-image: url("/img/i283.jpg");
     }
-    50%{
+    30%{
         background-image: url("/img/i6.jpg");
+    }
+
+    40%{
+        background-image: url("/img/i215.jpg");
+    }
+   
+    50%{
+        background-image: url("/img/i226.jpg");
+    }
+
+    60%{
+        background-image: url("/img/i191.jpg");
+    }
+    70%{
+        background-image: url("/img/i108.jpg");
+    }
+    80%{
+        background-image: url("/img/i11.jpg");
+    }
+    90%{
+        background-image: url("/img/i251.jpg");
+    }
+    100%{
+        background-image: url("/img/i193.jpg");
     }
    
     
-
-
-   
-
 }
 
 @keyframes t {
@@ -329,12 +349,12 @@
  @-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
 
 .pomar2 {
-    background-image: url("/passomar.jpg");
+    background-image: url("/img/i306.jpg");
     animation-name: omarp2;
     width: 100%;
     height: 200px;
     animation-iteration-count: infinite;
-    animation-duration: 7s;
+    animation-duration: 16s;
     background-size: contain;
     margin-top: 9px;
     background-repeat: no-repeat;
